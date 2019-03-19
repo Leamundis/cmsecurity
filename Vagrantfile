@@ -19,4 +19,8 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: "192.168.33.27"
   config.vm.synced_folder "./data", "/var/www/html"
   #config.vm.provision 'shell', inline: @script
+  
+  config.vm.provider "virtualbox" do |v|
+    v.name = "cmsecurity"
+  end
 end
