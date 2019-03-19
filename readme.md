@@ -32,3 +32,6 @@ mysql -u root -p0000 cms < cms.sql
 
 ### Normalement, c'est bon!
 ### Le projet est sur l'ip : 192.168.33.27
+
+
+### Je testerai le projet de Sophie : https://github.com/SopRop/test_securite
